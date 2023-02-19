@@ -45,7 +45,7 @@ const createPokemon=()=>{
       <button className="ba border-black bg-black hover:bg-green-700 text-lime-200 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" >
         Add Pokemon
       </button>
-      {create.isSuccess && <p className="pa2 f3 text-black b">Pokemon created successfully!</p>}
+      {create.isSuccess && <p className="pa2 f3 text-lime-200 font-serif b">Pokemon created successfully!</p>}
     </div>
   </form>
 </div>
