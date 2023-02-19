@@ -4,7 +4,7 @@ import Head from "next/head";
 
 import Link from "next/link";
 
-import {AiFill, AiFillDelete} from 'react-icons/ai';
+import { AiFillDelete} from 'react-icons/ai';
 
 
 

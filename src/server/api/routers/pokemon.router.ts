@@ -2,7 +2,7 @@ import { createPokemonSchema } from "../../../schema/pokemon.schema";
 import { createTRPCRouter, publicProcedure } from "../context";
 
 import z from 'zod';
-import { resolve } from "path";
+
 
 export const pokemonRouter=createTRPCRouter({
     createpokemon:publicProcedure

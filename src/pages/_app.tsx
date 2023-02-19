@@ -4,7 +4,7 @@ import { api } from "../utils/api";
 import Layout from  '../../components/Layout';
 import "../styles/globals.css";
 import 'tachyons';
-import ParticlesBg from "particles-bg";
+
 
 
 
