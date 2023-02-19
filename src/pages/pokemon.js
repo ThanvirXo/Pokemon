@@ -90,10 +90,10 @@ const pokemon=()=>{
 }
   </div> */}
 
-  {isLoading && events.length ===0 &&
+  {!isLoading && events.length ===0 &&
   <>
   <div className="mt-20 tc b f4 i">
-    <p>No Pokemons available,Click the button below to create one</p>
+    <p className="font-serif text-white">No Pokemons available,Click the button below to create one</p>
     <Link href="/createPokemon" className="inline-block mt-8 bg-black text-white font-bold py-2 px-4 rounded-lg uppercase tracking-wider hover:bg-green-900">Create Pokemon</Link>
     </div>
  
